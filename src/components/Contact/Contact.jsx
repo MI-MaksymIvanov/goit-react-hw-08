@@ -1,9 +1,6 @@
 import { PiUser, PiPhone } from "react-icons/pi";
 import { useDispatch } from "react-redux";
-import {
-  deleteContact,
-  editContacts,
-} from "../../redux/contacts/contactsOperations";
+import { deleteContact, editContacts } from "../../redux/contacts/operations";
 import ModalEditContact from "../ModalEditContact/ModalEditContact";
 
 import css from "./Contact.module.css";

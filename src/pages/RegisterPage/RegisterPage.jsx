@@ -1,5 +1,5 @@
 import { useSelector } from "react-redux";
-import { selectIsError } from "../../redux/auth/authSelectors";
+import { selectIsError } from "../../redux/auth/selectors";
 import ErrorMassege from "../../components/ErrorMessage/ErrorMessage";
 
 import PageTitle from "../../components/PageTitle/PageTitle";

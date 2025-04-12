@@ -1,8 +1,8 @@
 import { lazy, Suspense, useEffect } from "react";
 import { Route, Routes } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
-import { refreshUser } from "./redux/auth/authOperations";
-import { selecteIsRefreshing } from "./redux/auth/authSelectors";
+import { refreshUser } from "./redux/auth/operations";
+import { selecteIsRefreshing } from "./redux/auth/selectors";
 import { Toaster } from "react-hot-toast";
 
 import Layout from "./components/Layout/Layout";

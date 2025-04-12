@@ -6,13 +6,13 @@ import toast from "react-hot-toast";
 
 import { useDispatch, useSelector } from "react-redux";
 import { useEffect } from "react";
-import { fetchContacts } from "../../redux/contacts/contactsOperations.js";
+import { fetchContacts } from "../../redux/contacts/operations.js";
 import {
   selectContacts,
   selectIsError,
   selectIsLoading,
   selectFiltredContacts,
-} from "../../redux/contacts/contactsSelectors.js";
+} from "../../redux/contacts/selectors.js";
 
 export default function ContactsPage() {
   const dispatch = useDispatch();
