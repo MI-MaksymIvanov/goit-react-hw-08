@@ -1,0 +1,41 @@
+.contactForm {
+  width: 378px;
+  margin: 0 auto 16px;
+  display: flex;
+  flex-direction: column;
+
+  border: 1px solid #213547;
+  border-radius: 4px;
+  padding: 14px;
+}
+
+.contactFormLabel {
+  text-align: left;
+  font-weight: 500;
+}
+.contactFormField {
+  padding: 6px;
+
+  border: 1px solid #124e83;
+  border-radius: 4px;
+  outline: transparent;
+  transition: border-color 0.3s;
+}
+.contactFormField:hover,
+.contactFormField:focus {
+  border-color: #646cff;
+}
+
+.contactFormBtn {
+  background-color: #00ff22;
+  margin-top: 14px;
+  padding: 6px;
+  border: 1px solid #213547;
+  border-radius: 4px;
+}
+
+.errorMessage {
+  text-align: left;
+  font-size: 12px;
+  color: rgb(211, 13, 13);
+}

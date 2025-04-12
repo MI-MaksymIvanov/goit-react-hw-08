@@ -1,0 +1,30 @@
+.contactItemWrapper {
+  display: flex;
+  flex-direction: column;
+
+  gap: 4px;
+}
+
+.contactItemInfo {
+  width: 200px;
+  text-align: center;
+  font-weight: 500;
+  margin: 0px;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.contactBtnEdit {
+  background-color: #00eeff;
+  padding: 6px;
+  border: 1px solid #213547;
+  border-radius: 4px;
+}
+
+.contactBtnDelete {
+  background-color: #ff0000;
+  padding: 6px;
+  border: 1px solid #213547;
+  border-radius: 4px;
+}

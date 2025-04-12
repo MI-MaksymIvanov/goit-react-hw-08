@@ -1,0 +1,25 @@
+.searchBox {
+  display: flex;
+  flex-direction: column;
+  width: 378px;
+  margin: 0 auto;
+}
+.searchBoxLable {
+  text-align: center;
+  font-weight: 500;
+  margin: 0 auto;
+}
+
+.searchBoxField {
+  padding: 6px;
+  margin-bottom: 14px;
+  border: 1px solid #213547;
+  border-radius: 4px;
+  outline: transparent;
+  transition: border-color 0.3s;
+}
+
+.searchBoxField:hover,
+.searchBoxField:focus {
+  border-color: #646cff;
+}

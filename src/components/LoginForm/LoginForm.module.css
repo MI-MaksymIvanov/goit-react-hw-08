@@ -1,0 +1,23 @@
+.form {
+  width: 378px;
+  margin: 0 auto;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+.contactFormField {
+  padding: 6px;
+
+  border: 1px solid #124e83;
+  border-radius: 4px;
+  outline: transparent;
+  transition: border-color 0.3s;
+}
+.contactFormField:hover,
+.contactFormField:focus {
+  border-color: #646cff;
+}
